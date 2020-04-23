@@ -1,6 +1,6 @@
 tasks:
-  - init: echo "Replace me with a build script for the project."
-    command: echo "Replace me with something that should run on every start, or just
-      remove me entirely."
+  - command: echo "Welcome to Gitpod environment with AWS CLI v2! You have to configure using 'aws configure' command first."
+
 image:
   file: .gitpod.Dockerfile
+
