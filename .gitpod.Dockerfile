@@ -5,9 +5,8 @@ USER gitpod
 RUN curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip" && \
     unzip awscliv2.zip && \
     sudo ./aws/install && \
-    rm -Rf ./aws awscliv2.zip && \
-    echo "complete -C aws_completer aws" >> /home/gitpod/.bash_profile
-
+    rm -Rf ./aws awscliv2.zip
+    
 # RUN sudo apt-get -q update && 
 #     sudo apt-get install -yq bastet &&
 #     sudo rm -rf /var/lib/apt/lists/*

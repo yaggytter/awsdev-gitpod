@@ -1,5 +1,5 @@
 tasks:
-  - command: echo "Welcome to Gitpod environment with AWS CLI v2! You have to configure using 'aws configure' command first." ; complete -C aws_completer aws
+  - command: echo "Welcome to Gitpod environment with AWS CLI v2! You have to configure using 'aws configure' command first." ; complete -C aws_completer aws; aws configure
     
 image:
   file: .gitpod.Dockerfile
